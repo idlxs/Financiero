@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información Financiera</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            color: white;
+            padding: 1rem;
+        }
+        nav a {
+            color: white;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        main {
+            padding: 1rem;
+        }
+        section {
+            margin-bottom: 2rem;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Información Financiera</h1>
+    </header>
+    <nav>
+        <a href="#noticias">Noticias</a>
+        <a href="#analisis">Análisis</a>
+        <a href="#herramientas">Herramientas</a>
+        <a href="#recursos">Recursos</a>
+    </nav>
+    <main>
+        <section id="noticias">
+            <h2>Últimas Noticias Financieras</h2>
+            <article>
+                <h3>Título de la noticia</h3>
+                <p>Resumen de la noticia financiera reciente. Más detalles pueden ir aquí.</p>
+            </article>
+            <!-- Puedes agregar más artículos aquí -->
+        </section>
+        <section id="analisis">
+            <h2>Análisis de Mercado</h2>
+            <article>
+                <h3>Título del análisis</h3>
+                <p>Resumen del análisis de mercado. Detalles sobre tendencias y proyecciones.</p>
+            </article>
+            <!-- Puedes agregar más artículos aquí -->
+        </section>
+        <section id="herramientas">
+            <h2>Herramientas Financieras</h2>
+            <article>
+                <h3>Calculadora de Inversiones</h3>
+                <p>Descripción de la herramienta y cómo usarla para calcular rendimientos.</p>
+            </article>
+            <!-- Puedes agregar más artículos aquí -->
+        </section>
+        <section id="recursos">
+            <h2>Recursos Educativos</h2>
+            <article>
+                <h3>Guía de Inversión</h3>
+                <p>Información detallada sobre cómo comenzar a invertir. Consejos y mejores prácticas.</p>
+            </article>
+            <!-- Puedes agregar más artículos aquí -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Información Financiera. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
